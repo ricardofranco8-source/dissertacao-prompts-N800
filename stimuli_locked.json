@@ -1,0 +1,466 @@
+{
+  "status": "LOCKED — Stimuli v1.1 (EC/CH/VAL) + Protocolo LLM v1.6 FINAL (MC_FRAME approach/avoidance framing + modelo gpt-5.6-luna)",
+  "seed_randomizacao": 20260921801,
+  "nota": "STIMULI LOCKED v1.1 (títulos EC neutros idênticos; corpos EC/CH/VAL + Miguel inalterados). PROTOCOLO LLM LOCKED v1.6 FINAL: (a) modelo gpt-5.6-luna (desde v1.3.1); (b) MC_FRAME — framing approach vs avoidance (Dobson & Poels operationalization): item «Pensando apenas na frase publicitária apresentada pela instituição bancária, como classificaria a forma como está formulada?» com âncoras 1=Enfatiza sobretudo evitar resultados indesejáveis … 7=Enfatiza sobretudo alcançar resultados desejáveis (chave JSON MC_FRAME; substitui MC_VAL afetivo). Interpretação: VAL_POS → MC_FRAME alto; VAL_NEG → MC_FRAME baixo. Dois turnos; Responses API com reenvio explícito de instructions no Turno 2; Structured Outputs schema_v1; campos de auditoria extra. Apresentação ao LLM em DOIS TURNOS evita contaminação da BI pelos itens MC. Sintético/experimental — não são dados empíricos de respondentes humanos. NÃO rotular stimuli EC/CH/VAL como v1.6 — stimuli de estímulo permanecem em v1.1; só o check MC foi bumped em v1.6 (constructo: framing obtenção/evitação, não polaridade afetiva).",
+  "ordem": [
+    "persona",
+    "EC",
+    "CH_CONTEXT",
+    "VAL",
+    "BI",
+    "MC_FRAME",
+    "CE"
+  ],
+  "EC_TITLE": "Previsões Económicas para os Próximos Anos",
+  "EC_CON": {
+    "id": "EC_CON",
+    "titulo": "Previsões Económicas para os Próximos Anos",
+    "corpo": "Há alguns meses, Miguel terminou a sua licenciatura. Aos 23 anos, encontrava-se a iniciar uma nova fase da sua vida profissional. Desde então, o processo de entrada no mercado de trabalho tem sido mais difícil do que esperava.\n\n“Pensava que encontraria oportunidades com maior facilidade depois de terminar os estudos”, afirma Miguel. “Tenho encontrado menos oportunidades do que antecipava e o processo tem sido mais demorado.”\n\nA experiência de Miguel surge num contexto em que vários indicadores apontam para uma evolução menos favorável da economia portuguesa. A atividade económica tem vindo a perder dinamismo, enquanto as empresas demonstram maior cautela relativamente à contratação e ao investimento. O mercado de trabalho apresenta sinais de enfraquecimento e os indicadores de confiança dos consumidores têm registado uma evolução negativa.\n\nAlguns economistas consideram que este desempenho poderá estar relacionado com um ambiente de menor crescimento, redução do investimento empresarial e maior incerteza relativamente à evolução da procura. Neste contexto, as empresas tendem a adotar decisões mais prudentes relativamente à expansão da atividade e à criação de novos postos de trabalho.\n\nAs perspetivas para os próximos meses permanecem igualmente menos favoráveis. As expectativas relativamente ao crescimento económico têm vindo a deteriorar-se e existe maior incerteza quanto à evolução futura da atividade económica.\n\nCaso estas tendências se mantenham, Portugal poderá atravessar um período caracterizado por menor crescimento económico, menor dinamismo do mercado de trabalho e níveis inferiores de confiança relativamente à evolução da economia.",
+    "texto_completo": "Previsões Económicas para os Próximos Anos\n\nHá alguns meses, Miguel terminou a sua licenciatura. Aos 23 anos, encontrava-se a iniciar uma nova fase da sua vida profissional. Desde então, o processo de entrada no mercado de trabalho tem sido mais difícil do que esperava.\n\n“Pensava que encontraria oportunidades com maior facilidade depois de terminar os estudos”, afirma Miguel. “Tenho encontrado menos oportunidades do que antecipava e o processo tem sido mais demorado.”\n\nA experiência de Miguel surge num contexto em que vários indicadores apontam para uma evolução menos favorável da economia portuguesa. A atividade económica tem vindo a perder dinamismo, enquanto as empresas demonstram maior cautela relativamente à contratação e ao investimento. O mercado de trabalho apresenta sinais de enfraquecimento e os indicadores de confiança dos consumidores têm registado uma evolução negativa.\n\nAlguns economistas consideram que este desempenho poderá estar relacionado com um ambiente de menor crescimento, redução do investimento empresarial e maior incerteza relativamente à evolução da procura. Neste contexto, as empresas tendem a adotar decisões mais prudentes relativamente à expansão da atividade e à criação de novos postos de trabalho.\n\nAs perspetivas para os próximos meses permanecem igualmente menos favoráveis. As expectativas relativamente ao crescimento económico têm vindo a deteriorar-se e existe maior incerteza quanto à evolução futura da atividade económica.\n\nCaso estas tendências se mantenham, Portugal poderá atravessar um período caracterizado por menor crescimento económico, menor dinamismo do mercado de trabalho e níveis inferiores de confiança relativamente à evolução da economia."
+  },
+  "EC_EXP": {
+    "id": "EC_EXP",
+    "titulo": "Previsões Económicas para os Próximos Anos",
+    "corpo": "Há alguns meses, Miguel terminou a sua licenciatura. Aos 23 anos, encontrava-se a iniciar uma nova fase da sua vida profissional. Desde então, o processo de entrada no mercado de trabalho tem sido mais favorável do que esperava.\n\n“Pensava que encontraria algumas dificuldades depois de terminar os estudos”, afirma Miguel. “Tenho encontrado mais oportunidades do que antecipava e o processo tem sido mais rápido.”\n\nA experiência de Miguel surge num contexto em que vários indicadores apontam para uma evolução favorável da economia portuguesa. A atividade económica tem vindo a ganhar dinamismo, enquanto as empresas demonstram maior confiança relativamente à contratação e ao investimento. O mercado de trabalho apresenta sinais de melhoria e os indicadores de confiança dos consumidores têm registado uma evolução positiva.\n\nAlguns economistas consideram que este desempenho poderá estar relacionado com um ambiente de maior crescimento, aumento do investimento empresarial e maior confiança relativamente à evolução da procura. Neste contexto, as empresas tendem a adotar decisões mais favoráveis relativamente à expansão da atividade e à criação de novos postos de trabalho.\n\nAs perspetivas para os próximos meses permanecem igualmente favoráveis. As expectativas relativamente ao crescimento económico têm vindo a melhorar e existe maior confiança quanto à evolução futura da atividade económica.\n\nCaso estas tendências se mantenham, Portugal poderá atravessar um período caracterizado por maior crescimento económico, maior dinamismo do mercado de trabalho e níveis superiores de confiança relativamente à evolução da economia.",
+    "texto_completo": "Previsões Económicas para os Próximos Anos\n\nHá alguns meses, Miguel terminou a sua licenciatura. Aos 23 anos, encontrava-se a iniciar uma nova fase da sua vida profissional. Desde então, o processo de entrada no mercado de trabalho tem sido mais favorável do que esperava.\n\n“Pensava que encontraria algumas dificuldades depois de terminar os estudos”, afirma Miguel. “Tenho encontrado mais oportunidades do que antecipava e o processo tem sido mais rápido.”\n\nA experiência de Miguel surge num contexto em que vários indicadores apontam para uma evolução favorável da economia portuguesa. A atividade económica tem vindo a ganhar dinamismo, enquanto as empresas demonstram maior confiança relativamente à contratação e ao investimento. O mercado de trabalho apresenta sinais de melhoria e os indicadores de confiança dos consumidores têm registado uma evolução positiva.\n\nAlguns economistas consideram que este desempenho poderá estar relacionado com um ambiente de maior crescimento, aumento do investimento empresarial e maior confiança relativamente à evolução da procura. Neste contexto, as empresas tendem a adotar decisões mais favoráveis relativamente à expansão da atividade e à criação de novos postos de trabalho.\n\nAs perspetivas para os próximos meses permanecem igualmente favoráveis. As expectativas relativamente ao crescimento económico têm vindo a melhorar e existe maior confiança quanto à evolução futura da atividade económica.\n\nCaso estas tendências se mantenham, Portugal poderá atravessar um período caracterizado por maior crescimento económico, maior dinamismo do mercado de trabalho e níveis superiores de confiança relativamente à evolução da economia."
+  },
+  "CH_CONTEXT": {
+    "id": "CH_CONTEXT",
+    "texto": "Crédito à Habitação\n\nImagine que se encontra a considerar a contratação de um crédito à habitação para aquisição de habitação própria permanente.\n\nNeste contexto, uma instituição bancária apresenta-lhe uma proposta de crédito à habitação e comunica a seguinte mensagem:"
+  },
+  "VAL_POS": {
+    "id": "VAL_POS",
+    "texto": "Faça ambos: pague menos e viva mais."
+  },
+  "VAL_NEG": {
+    "id": "VAL_NEG",
+    "texto": "Não pague mais nem viva menos."
+  },
+  "BI": {
+    "instrucao": "Com base na informação apresentada sobre este crédito à habitação, indique a probabilidade de realizar cada uma das seguintes ações.",
+    "escala": {
+      "min": 1,
+      "max": 7,
+      "ancora_min": "Muito improvável",
+      "ancora_max": "Muito provável"
+    },
+    "itens": {
+      "BI1": "Solicitar este crédito à habitação.",
+      "BI2": "Colocar este crédito à habitação entre as minhas primeiras opções.",
+      "BI3": "Fazer um esforço considerável para obter este crédito à habitação.",
+      "BI4": "Recomendar este crédito à habitação a um amigo ou familiar."
+    },
+    "nota_locking": "Versão LOCKED = anexos (preferida). Variantes ligeiras existem no §3.3 do rascunho da dissertação.",
+    "heading": "QUESTÕES",
+    "heading_nota": "Usar «QUESTÕES» como rótulo suave — NÃO «INTENÇÃO COMPORTAMENTAL»."
+  },
+  "CE": {
+    "fonte": "Sirola & Pitesa (2017), adaptação PT",
+    "escala": {
+      "min": 1,
+      "max": 5,
+      "ancora_min": "Discordo totalmente",
+      "ancora_max": "Concordo totalmente"
+    },
+    "itens": {
+      "CE1": "A economia está má.",
+      "CE2": "A economia encontra-se numa fase de contração.",
+      "CE3": "É provável ocorrer uma recessão económica."
+    }
+  },
+  "system_prompt": "És um respondente sintético num estudo de investigação.\nResponde de acordo com o perfil atribuído e apenas com a informação apresentada.\nNão procures inferir os objetivos ou hipóteses do estudo.\nQuando uma característica não estiver definida, não inventes novos factos biográficos.\nResponde apenas no formato solicitado.",
+  "mapeamentos_perfil": {
+    "situacao_profissional": {
+      "empregado": "Empregado",
+      "desempregado": "Desempregado",
+      "inativo": "Inativo"
+    },
+    "composicao": {
+      "unipessoal": "Agregado unipessoal",
+      "casal_sem_filhos": "Casal sem filhos",
+      "casal_com_filhos": "Casal com filhos",
+      "monoparental": "Agregado monoparental",
+      "outro": "Outra composição do agregado"
+    },
+    "situacao_habitacional": {
+      "prop_com_hipoteca_RP": "Proprietário com hipoteca sobre residência principal",
+      "prop_sem_hipoteca": "Proprietário sem hipoteca",
+      "nao_proprietario": "Não proprietário (inclui arrendatário e outras situações sem propriedade)"
+    }
+  },
+  "ordem_nota": "Ordem conceptual inalterada (persona→EC→CH→VAL→BI→MC). Na apresentação ao LLM (protocolo v1.6 FINAL): Turno 1 contém persona+EC+CH+VAL+BI; Turno 2 (mesmo chat via previous_response_id) contém apenas MC_FRAME+CE, sem reenviar estímulos. System instructions reenviadas literalmente em ambos os pedidos. Corpos de estímulo EC/CH/VAL = stimuli v1.1; MC_FRAME = approach_avoidance_v1.6.",
+  "protocolo_versao": "1.6 FINAL",
+  "turnos": {
+    "desenho": "dois_turnos_mesmo_chat",
+    "razao": "Com humanos, a ordem das páginas esconde os MC até depois da DV. Com um LLM, a mensagem de utilizador completa é visível antes de qualquer token; colocar MC após BI na MESMA mensagem contamina a BI. Solução: mesmo chat, dois turnos; persistir JSON do Turno 1 antes de enviar o Turno 2.",
+    "turno1": {
+      "papel": "DV (intenção comportamental)",
+      "conteudo": [
+        "PERFIL",
+        "EC_EXP|EC_CON",
+        "CH_CONTEXT",
+        "VAL_POS|VAL_NEG (entre aspas)",
+        "QUESTÕES + BI1–BI4",
+        "instrução JSON BI apenas"
+      ],
+      "proibicoes": [
+        "MC_FRAME",
+        "CE1",
+        "CE2",
+        "CE3",
+        "INTENÇÃO COMPORTAMENTAL",
+        "VERIFICAÇÕES",
+        "MANIPULATION"
+      ],
+      "output_json_schema": {
+        "type": "object",
+        "properties": {
+          "BI1": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          },
+          "BI2": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          },
+          "BI3": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          },
+          "BI4": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          }
+        },
+        "required": [
+          "BI1",
+          "BI2",
+          "BI3",
+          "BI4"
+        ],
+        "additionalProperties": false
+      },
+      "output_instruction": "FORMATO DE RESPOSTA\nResponde apenas com o objeto JSON abaixo (sem texto adicional, sem markdown):\n{\n  \"BI1\": <int 1-7>,\n  \"BI2\": <int 1-7>,\n  \"BI3\": <int 1-7>,\n  \"BI4\": <int 1-7>\n}",
+      "retry_message": "A resposta anterior não respeitou o formato solicitado. Responde novamente apenas com um objeto JSON válido contendo exatamente as chaves BI1, BI2, BI3 e BI4, com valores inteiros entre 1 e 7. Não acrescentes qualquer outro texto.",
+      "structured_output": {
+        "name": "turn1_bi_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "BI1": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 7
+            },
+            "BI2": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 7
+            },
+            "BI3": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 7
+            },
+            "BI4": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 7
+            }
+          },
+          "required": [
+            "BI1",
+            "BI2",
+            "BI3",
+            "BI4"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "turno2": {
+      "papel": "manipulation checks",
+      "conteudo": [
+        "opener neutro",
+        "MC_FRAME + escala 1–7 (approach/avoidance)",
+        "CE1–CE3 + escala 1–5",
+        "instrução JSON MC apenas"
+      ],
+      "proibicoes": [
+        "reenviar PERFIL",
+        "reenviar EC",
+        "reenviar CH_CONTEXT",
+        "reenviar VAL",
+        "BI1–BI4",
+        "INTENÇÃO COMPORTAMENTAL",
+        "VERIFICAÇÕES",
+        "MANIPULATION CHECKS",
+        "títulos de constructo"
+      ],
+      "opener": "Responda agora às seguintes afirmações.",
+      "output_json_schema": {
+        "type": "object",
+        "properties": {
+          "MC_FRAME": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          },
+          "CE1": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "CE2": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "CE3": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          }
+        },
+        "required": [
+          "MC_FRAME",
+          "CE1",
+          "CE2",
+          "CE3"
+        ],
+        "additionalProperties": false
+      },
+      "output_instruction": "FORMATO DE RESPOSTA\nResponde apenas com o objeto JSON abaixo (sem texto adicional, sem markdown):\n{\n  \"MC_FRAME\": <int 1-7>,\n  \"CE1\": <int 1-5>,\n  \"CE2\": <int 1-5>,\n  \"CE3\": <int 1-5>\n}",
+      "retry_message": "A resposta anterior não respeitou o formato solicitado. Responde novamente apenas com um objeto JSON válido contendo exatamente as chaves MC_FRAME, CE1, CE2 e CE3, respeitando os intervalos indicados. Não acrescentes qualquer outro texto.",
+      "structured_output": {
+        "name": "turn2_mc_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "MC_FRAME": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 7
+            },
+            "CE1": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "CE2": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "CE3": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          "required": [
+            "MC_FRAME",
+            "CE1",
+            "CE2",
+            "CE3"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "system": "mesmo system_prompt LOCKED reenviado explicitamente em ambos os turnos (Responses API: instructions NÃO são herdadas via previous_response_id)",
+    "retry_policy": {
+      "scope": "formato apenas",
+      "max_retries_por_turno": 1,
+      "proibicoes": [
+        "pedir para reconsiderar / repensar a resposta",
+        "reenviar estímulos (persona/EC/CH/VAL)",
+        "alterar system prompt",
+        "alterar conteúdo das questões"
+      ],
+      "nota": "O retry corrige apenas o FORMATO JSON. Nunca pedir rethink/reconsider; nunca reenviar estímulos."
+    },
+    "politica_turno2_se_turno1_invalido": {
+      "locked": true,
+      "regra": "Se o Turno 1 permanecer inválido após um retry de formato: AINDA ASSIM enviar o Turno 2, desde que a execução da conversa tenha sido normal (não falha de API/transporte/modelo). Campos BI → missing/invalid; raw do Turno 1 preservado; MCs recolhidos quando possível.",
+      "technical_failure": "Se erro de API/transporte/modelo: marcar technical_failure (categoria separada); não tratar como format-invalid."
+    },
+    "responses_api": {
+      "instructions_nao_herdadas": true,
+      "regra": "Na Responses API, as instructions (system) NÃO são automaticamente herdadas entre respostas encadeadas. Reenviar o mesmo system prompt literal em ambos os turnos, mesmo com previous_response_id.",
+      "turno1_call": {
+        "instructions": "SYSTEM_PROMPT",
+        "input": "TURN1_USER",
+        "previous_response_id": null
+      },
+      "turno2_call": {
+        "instructions": "SYSTEM_PROMPT",
+        "previous_response_id": "ID_TURNO_1",
+        "input": "TURN2_USER",
+        "nao_reenviar": [
+          "persona",
+          "EC",
+          "CH",
+          "VAL"
+        ]
+      }
+    }
+  },
+  "stimuli_versao": "1.1",
+  "api_config": {
+    "api": "OpenAI Responses API",
+    "modelo": "gpt-5.6-luna",
+    "reasoning_mode": "standard",
+    "reasoning_effort": "none",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "tools": [],
+    "max_output_tokens": 128,
+    "structured_output": "JSON Schema strict",
+    "conversacao": "previous_response_id",
+    "store": true,
+    "system_instructions": "reenviadas nos dois turnos",
+    "nota_temperature_top_p": "Fixar temperature=1.0; top_p permanece no default 1.0 (não variar ambos).",
+    "modelo_anterior_v1_3": "gpt-5.6-sol",
+    "nota_modelo": "v1.3.1: modelo trocado para gpt-5.6-luna; restantes params iguais a v1.3 FINAL. v1.4 FINAL: modelo/params inalterados; MC_VAL bipolar genérico. v1.5 FINAL: modelo/params inalterados; MC_VAL referent-specific afetivo. v1.6 FINAL: modelo/params inalterados (gpt-5.6-luna); alteração única = MC_FRAME approach/avoidance framing (chave MC_FRAME; substitui MC_VAL afetivo)."
+  },
+  "schemas": {
+    "schema_version": "schema_v1",
+    "schema_hash_sha256": "cad3a0fd701233839014e995e2d18274ecb115c61aaec3f7e080f1b790627040",
+    "nota": "Armazenar schema_version e/ou schema_hash nos logs raw de cada execução. v1.6 FINAL: turn2 schema key MC_VAL→MC_FRAME (int 1–7); turn1 inalterado; schema_hash recomputado.",
+    "turn1": {
+      "name": "turn1_bi_response",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "BI1": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          },
+          "BI2": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          },
+          "BI3": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          },
+          "BI4": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          }
+        },
+        "required": [
+          "BI1",
+          "BI2",
+          "BI3",
+          "BI4"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "turn2": {
+      "name": "turn2_mc_response",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "MC_FRAME": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7
+          },
+          "CE1": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "CE2": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "CE3": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          }
+        },
+        "required": [
+          "MC_FRAME",
+          "CE1",
+          "CE2",
+          "CE3"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "audit_fields": [
+    "model",
+    "version",
+    "datetime",
+    "params",
+    "persona_id",
+    "condicao",
+    "ciclo_id",
+    "valencia_id",
+    "system_prompt",
+    "turn1_user",
+    "turn2_user",
+    "turn1_raw",
+    "turn2_raw",
+    "turn1_parse_status",
+    "turn2_parse_status",
+    "turn1_retry_flag",
+    "turn2_retry_flag",
+    "technical_failure",
+    "BI1",
+    "BI2",
+    "BI3",
+    "BI4",
+    "MC_FRAME",
+    "CE1",
+    "CE2",
+    "CE3",
+    "turn1_response_id",
+    "turn2_response_id",
+    "api_model_returned",
+    "service_tier",
+    "turn1_finish_status",
+    "turn2_finish_status",
+    "input_tokens_turn1",
+    "output_tokens_turn1",
+    "input_tokens_turn2",
+    "output_tokens_turn2",
+    "schema_version",
+    "schema_hash"
+  ],
+  "MC_FRAME": {
+    "item": "Pensando apenas na frase publicitária apresentada pela instituição bancária, como classificaria a forma como está formulada?",
+    "escala": {
+      "min": 1,
+      "max": 7,
+      "ancora_min": "Enfatiza sobretudo evitar resultados indesejáveis",
+      "ancora_max": "Enfatiza sobretudo alcançar resultados desejáveis"
+    },
+    "nota": "Mesmo item de framing (approach vs avoidance) para TODAS as condições (não ramificar por condição). Chave JSON MC_FRAME (renomeada de MC_VAL). Constructo: ênfase em alcançar resultados desejáveis (approach/gain) vs evitar resultados indesejáveis (avoidance/loss) — operacionalização à Dobson & Poels; NÃO polaridade afetiva pleasant/unpleasant. Sem âncora média explícita: escala 1–7 com as duas âncoras extremos. mc_frame_versao=approach_avoidance_v1.6 (substitui MC_VAL referent_specific_v1.5 afetivo bipolar).",
+    "mc_frame_versao": "approach_avoidance_v1.6",
+    "interpretacao": {
+      "VAL_POS": "esperar MC_FRAME alto (ênfase em alcançar / approach)",
+      "VAL_NEG": "esperar MC_FRAME baixo (ênfase em evitar / avoidance)",
+      "nota_tese": "Na dissertação, «positivo/negativo» = obtenção vs evitação (não agradável/desagradável)."
+    }
+  }
+}
